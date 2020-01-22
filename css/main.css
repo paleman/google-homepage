@@ -1,7 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 99vh;
+}
+
 .header {
     display: flex;
     font-size: 15px;
-    justify-content: space-between;   
+    justify-content: space-between;
+    margin-bottom: auto;
 }
 
 .right {
@@ -9,8 +16,8 @@
 }
 
 .right a {
-    margin: 2px;
-    padding: 2px;
+    margin: 3px;
+    padding: 3px;
 }
 
 .left {
@@ -18,6 +25,32 @@
 }
 
 .left a {
-    margin: 2px;
-    padding: 2px;
+    margin: 3px;
+    padding: 3px;
+}
+
+.footer {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    background-color: rgba(245, 243, 243, 0.925);
+    margin-top: auto;
+}
+
+.right2 {
+    justify-content: flex-end;
+}
+
+.right2 a {
+    margin: 5px;
+    padding: 5px;
+}
+
+.left2 {
+    justify-content: flex-start;
+}
+
+.left2 a {
+    margin: 5px;
+    padding: 5px;
 }
