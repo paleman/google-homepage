@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;   
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.right a {
+    margin: 2px;
+    padding: 2px;
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+.left a {
+    margin: 2px;
+    padding: 2px;
+}
