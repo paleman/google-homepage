@@ -67,34 +67,29 @@ body {
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-}
-
-.logo img {
-    border: 2px solid red;
-    margin-bottom: 2em;
+    align-self: center;
 }
 
 .search-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7.5em;
 }
 
 .search-box1 {
     display: flex;
     justify-content: center;
-    border: 2px solid red;
+    border: 1px solid rgba(241, 229, 229, 0.959);
     background-color: green;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-    border-radius:6px;
-    padding:13px;
-    width:335px;
-    margin: 100px auto;
+    border-radius: 15px;
+    padding: 0.5em;
+    width: 25em;
+    margin: auto;
+    margin-top: 1em;
 }
 
 .search-box1 input {
-    margin: 1px;
+    margin: auto;
     background-color: transparent;
     border: none;
 }
