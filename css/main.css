@@ -2,8 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 99vh;
-    border: 2px solid red;
-
 }
 
 .header {
@@ -21,7 +19,14 @@ body {
     margin: 3px;
     padding: 3px;
     text-decoration: none;
-    color: gray
+    color: black
+}
+
+.right a input {
+    background-color: rgb(17, 118, 250);
+    color: white;
+    font-size: 15px;
+    border: 100px;
 }
 
 .left {
@@ -32,7 +37,7 @@ body {
     margin: 3px;
     padding: 3px;
     text-decoration: none;
-    color: gray
+    color: black
 }
 
 .footer {
@@ -52,7 +57,7 @@ body {
     margin: 5px;
     padding: 5px;
     text-decoration: none;
-    color: gray;
+    color: black;
 }
 
 .left2 {
@@ -63,7 +68,7 @@ body {
     margin: 5px;
     padding: 5px;
     text-decoration: none;
-    color: gray
+    color: black;
 }
 
 .logo {
@@ -79,23 +84,33 @@ body {
 .search-box1 {
     display: flex;
     justify-content: center;
-    border: 1px solid rgba(241, 229, 229, 0.959);
-    background-color: green;
+    border: 1px solid rgba(228, 215, 215, 0.932);
+    background-color: white;
     border-radius: 15px;
-    padding: 0.5em;
-    width: 25em;
+    padding: 0.75em;
+    width: 30em;
     margin: auto;
-    margin-top: 1em;
+    margin-top: 1.5em;
 }
 
 .search-box1 input {
     margin: auto;
     background-color: transparent;
     border: none;
+    width: 90%;
 }
 
 .button { 
     display: flex;
     justify-content: center;
-    border: 2px solid red
+}
+
+.button input {
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
